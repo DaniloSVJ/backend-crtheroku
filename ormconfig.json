@@ -1,0 +1,21 @@
+{
+    "type": "mysql",
+    "host": "crtsistemas.com.br",
+    "port": 3306,
+    "username": "crtsiste_adm",
+    "password": "19302203",
+    "database": "crtsiste_sistemaweb",
+    "dateStrings": "DATETIME",
+    "entities": [
+        "./dist/models/*.js"
+    ],
+    "migrations": [
+        "./dist/database/migrations/*.js"
+    ],
+    "cli": {
+        "migrationsDir": "./dist/database/migrations"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}
