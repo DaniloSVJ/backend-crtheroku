@@ -36,4 +36,4 @@ app.use((err, request, response, _) => {
 }); //routes.use("/appointments",appointmentsRouter)
 //app.post('appointments')
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
