@@ -38,4 +38,4 @@ app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
 
 //app.post('appointments')
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
